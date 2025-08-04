@@ -11,5 +11,6 @@ export default defineConfig({
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
     'node_modules/flowbite/**/*.js',
   ],
-  plugins: [react(), tailwindcss(), flowbiteReact()]
+  plugins: [react(), tailwindcss(), flowbiteReact()],
+  base:'/Nexcent/',
 })
