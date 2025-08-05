@@ -12,5 +12,6 @@ export default defineConfig({
     'node_modules/flowbite/**/*.js',
   ],
   plugins: [react(), tailwindcss(), flowbiteReact()],
-  base:'/Nexcent/',
+  base:'/',
+  assetsInclude: ['**/*.lottie'],
 })

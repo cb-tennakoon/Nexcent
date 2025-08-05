@@ -6,6 +6,7 @@
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 
+
 :root{
     font-family: "Poppins",sans-serif;
     /* color-scheme: dark; */
