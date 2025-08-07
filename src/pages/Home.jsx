@@ -1,3 +1,4 @@
+import Community from "../components/Community";
 import HeroSection from "../components/HeroSection";
 import OurClients from "../components/OurClients";
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
       <div className="text-center relative w-full top-0">
         <HeroSection/>
         <OurClients/>
+        <Community/>
       </div>
     </div>
   );
