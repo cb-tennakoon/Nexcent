@@ -11,3 +11,7 @@
     font-family: "Poppins",sans-serif;
     /* color-scheme: dark; */
 }
+.animate-slide-in {
+  opacity: 1 !important;
+  transform: translate-x-0 translate-y-0 !important;
+}
